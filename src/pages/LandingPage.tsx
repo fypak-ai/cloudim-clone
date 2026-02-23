@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import {
-  Cloud, Upload, HardDrive, Link2, Shield, Zap, Settings,
+  Upload, HardDrive, Link2, Shield, Zap, Settings,
   Monitor, Eye, MousePointer, List, Lock, Filter,
   ChevronRight, CheckCircle, Play
 } from 'lucide-react';
@@ -17,7 +17,7 @@ export default function LandingPage() {
 
         <div className="relative max-w-5xl mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm px-4 py-2 rounded-full mb-8">
-            🎉 1TB de armazenamento gratuito
+            🌩 1TB de armazenamento gratuito
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Importe arquivos de{' '}

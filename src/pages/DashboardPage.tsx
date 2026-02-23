@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Upload, HardDrive, RefreshCw, Trash2, Plus } from 'lucide-react';
+import { Upload, HardDrive, RefreshCw, Plus } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { useTransfers } from '../hooks/useTransfers';
 import TransferCard from '../components/TransferCard';
@@ -21,7 +21,7 @@ export default function DashboardPage() {
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-2xl font-bold">Dashboard</h1>
-          <p className="text-gray-400 mt-1">Olá, {user?.name || user?.email} 👋</p>
+          <p className="text-gray-400 mt-1">Olá, {user?.name || user?.email} 🌻</p>
         </div>
         <div className="flex items-center gap-3">
           <button
